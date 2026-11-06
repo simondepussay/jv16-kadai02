@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ウアンヌアン's おみくじ</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <h1>チャリちゃんのおみくじ</h1>
+  <img src="images/omi_home.png" alt="おみくじ" width="200">
+  <!-- （OmikujiServlet）を呼ぶ -->
+  <form action="omikuji" method="get">
+    <input type="submit" value="やってみる">
+  </form>
+</body>
+</html>
